@@ -32,7 +32,7 @@ export default function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <div className="font-playfair text-xl text-white">
+        <div className="font-playfair text-[1.9rem] text-white">
           Teacher <span className="text-teal">Raabe</span>
         </div>
 
@@ -41,7 +41,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-sm text-[#9B93B8] hover:text-white transition-colors duration-200 font-light"
+                className="lg:text-lg text-sm text-[#9B93B8] hover:text-white transition-colors duration-200 font-light"
               >
                 {l.label}
               </a>

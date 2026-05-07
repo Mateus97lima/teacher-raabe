@@ -51,7 +51,7 @@ export default function Hero() {
               </div>
               <div>
                 <div className="font-playfair text-lg text-white">Teacher Raabe</div>
-                <div className="text-xs text-[#9B93B8] mt-1">CELTA Certified · 8+ anos de experiência</div>
+                <div className="text-xs text-[#9B93B8] mt-1">FECLESC Certified · 8+ anos de experiência</div>
               </div>
             </div>
             <div className="grid grid-cols-3 gap-3">

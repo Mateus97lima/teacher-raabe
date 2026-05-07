@@ -1,5 +1,5 @@
 const certs = [
-  { icon: "🏆", title: "CELTA", sub: "Universidade de Cambridge" },
+  { icon: "🏆", title: "FECLESC", sub: "Universidade de Quixáda" },
   { icon: "📚", title: "TOEFL · IELTS", sub: "Preparação para exames" },
   { icon: "🌐", title: "100% Online", sub: "Zoom · Google Meet" },
   { icon: "⏰", title: "Horários flexíveis", sub: "Adaptado à sua rotina" },
@@ -28,7 +28,7 @@ export default function About() {
               </div>
               <div className="font-playfair text-xl text-white relative z-10">Teacher Raabe</div>
               <div className="text-xs text-teal mt-1 font-medium tracking-wide relative z-10">
-                English Teacher · CELTA Certified
+                English Teacher · FECLESC Certified
               </div>
             </div>
 
@@ -36,7 +36,7 @@ export default function About() {
               <div className="text-xs font-semibold text-purple-light tracking-widest uppercase mb-4">
                 ✨ Um pouco sobre mim
               </div>
-              <p className="text-sm text-[#9B93B8] leading-[1.8] font-light">
+              <p className="text-md text-[#9B93B8] leading-[1.8] font-light">
                 Sou apaixonada por café e não começo o dia sem uma boa xícara!
                 Tenho dois companheiros incríveis: o{" "}
                 <span className="text-white font-medium">Zezinho</span> (pretinho clássico) e o{" "}
@@ -60,7 +60,7 @@ export default function About() {
 
           {/* RIGHT */}
           <div>
-            <p className="text-[0.95rem] text-[#9B93B8] leading-[1.9] font-light mb-4">
+            <p className="text-[0.99rem] text-[#9B93B8] leading-[1.9] font-light mb-4">
               Sou professora de inglês com mais de 8 anos de experiência formando alunos do nível
               básico ao avançado. Minha paixão pelo idioma começou cedo e se transformou em missão:
               ajudar pessoas reais a conquistarem a fluência que sempre sonharam.
