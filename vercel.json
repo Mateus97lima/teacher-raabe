@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd teacher-raabe && npm install && npm run build",
+  "outputDirectory": "teacher-raabe/.next",
+  "installCommand": "cd teacher-raabe && npm install"
+}
