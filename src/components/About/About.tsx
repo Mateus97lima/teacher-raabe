@@ -19,7 +19,7 @@ export default function About() {
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.3fr] gap-[5rem] mt-10 items-start">
-          {/* LEFT */}
+
           <div className="flex flex-col gap-4">
             <div className="bg-card card-border rounded-2xl p-8 text-center relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-br from-[rgba(108,63,197,0.3)] to-[rgba(224,64,160,0.2)]" />
@@ -38,9 +38,10 @@ export default function About() {
               </div>
               <p className="text-md text-[#9B93B8] leading-[1.8] font-light">
                 Sou apaixonada por café e não começo o dia sem uma boa xícara!
-                Tenho dois companheiros incríveis: o{" "}
-                <span className="text-white font-medium">Zezinho</span> (pretinho clássico) e o{" "}
-                <span className="text-white font-medium">Gaara</span> (frajolinha estiloso) — meus
+                Tenho três companheiros incríveis: o{" "}
+                <span className="text-white font-medium">Gaara</span> (pretinho clássico) {" "},
+                <span className="text-white font-medium">Carminha</span> (frajolinha estilosa) e o{" "}
+                <span className="text-white font-medium">Zezinho </span> (frajolinha estiloso) — meus
                 gatos que sempre aparecem nas aulas online. Amo jogos, minha animação favorita é
                 BoJack Horseman, e se quiser me conquistar, é só chamar pra comer um bom sushi 🍣.
                 Ah, e sim, meu coração já tem dono 💛
@@ -58,7 +59,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* RIGHT */}
           <div>
             <p className="text-[0.99rem] text-[#9B93B8] leading-[1.9] font-light mb-4">
               Sou professora de inglês com mais de 8 anos de experiência formando alunos do nível
@@ -72,7 +72,7 @@ export default function About() {
             </p>
             <p className="text-[0.95rem] text-[#9B93B8] leading-[1.9] font-light mb-6">
               Cada aluno tem um ritmo, uma história e um objetivo diferente. Por isso, cada plano de
-              estudos que crio é único — feito sob medida pra você.
+              estudos que crio é único — feito sob medida pra você .
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
