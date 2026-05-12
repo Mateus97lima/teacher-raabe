@@ -1,7 +1,6 @@
 const certs = [
   { icon: "🏆", title: "FECLESC", sub: "Universidade de Quixáda" },
-  { icon: "📚", title: "TOEFL · IELTS", sub: "Preparação para exames" },
-  { icon: "🌐", title: "100% Online", sub: "Zoom · Google Meet" },
+  { icon: "🌐", title: "100% Online", sub: " Google Meet" },
   { icon: "⏰", title: "Horários flexíveis", sub: "Adaptado à sua rotina" },
 ];
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
+
 
 const links = [
   { href: "#about", label: "Sobre" },

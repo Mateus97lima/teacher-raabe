@@ -44,7 +44,7 @@ export default function Hero() {
         {/* RIGHT */}
         <div className="hidden lg:flex flex-col gap-4">
           <div className="bg-card card-border rounded-2xl p-8 relative overflow-hidden">
-            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-purple via-pink to-teal" />
+            <div className="absolute top-0 left-0 right-0 h-[3px] animated-border" />
             <div className="flex items-center gap-4 mb-6">
               <div className="w-14 h-14 rounded-full gradient-bg flex items-center justify-center font-playfair text-2xl text-white shrink-0">
                 R

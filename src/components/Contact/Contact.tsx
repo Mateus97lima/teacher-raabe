@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "5511999990000"; // ← Troque pelo número da Teacher Raabe
+const WHATSAPP_NUMBER = "55 88 8853-6810"; // e
 
 const contactItems = [
-  { icon: "📱", label: "WhatsApp", value: "(11) 99999-0000" },
-  { icon: "📧", label: "E-mail", value: "contato@teacherraabe.com" },
-  { icon: "🌐", label: "Modalidade", value: "100% Online · Zoom / Google Meet" },
+  { icon: "📱", label: "WhatsApp", value: "(88) 8853-6810" },
+  { icon: "📧", label: "E-mail", value: "teacherraabe@gmail.com" },
+  { icon: "🌐", label: "Modalidade", value: "100% Online · Google Meet" },
 ];
 
 export default function Contact() {
@@ -44,7 +44,7 @@ Gostaria de agendar minha aula experimental gratuita!`;
   };
 
   const inputClass =
-    "w-full px-4 py-3 bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-xl text-sm text-[#F0EDF8] placeholder-[rgba(255,255,255,0.2)] outline-none focus:border-purple-light transition-colors duration-200 font-jakarta";
+    "w-full px-4 py-3 bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-xl text-sm text-[#F0EDF8] lg:text-[re] placeholder-[rgba(255,255,255,0.2)] outline-none focus:border-purple-light transition-colors duration-200 font-jakarta";
 
   return (
     <section id="contact" className="py-[90px] px-[5%] bg-[#13102A]">
@@ -87,7 +87,7 @@ Gostaria de agendar minha aula experimental gratuita!`;
 
           {/* FORM */}
           <div className="bg-card card-border rounded-2xl p-8 relative overflow-hidden">
-            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-purple via-pink to-teal" />
+            <div className="absolute top-0 left-0 right-0 h-[3px] animated-border" />
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -145,11 +145,11 @@ Gostaria de agendar minha aula experimental gratuita!`;
                   required
                   className={inputClass + " cursor-pointer appearance-none"}
                 >
-                  <option value="">Selecione seu nível atual</option>
-                  <option>Básico (nunca estudei muito)</option>
-                  <option>Iniciante (conheço o básico)</option>
-                  <option>Intermediário</option>
-                  <option>Avançado</option>
+                  <option value="" className="bg-[#1E1A38]">Selecione seu nível atual</option>
+                  <option className="bg-[#1E1A38]">Básico (nunca estudei muito)</option>
+                  <option className="bg-[#1E1A38]">Iniciante (conheço o básico)</option>
+                  <option className="bg-[#1E1A38]">Intermediário</option>
+                  <option className="bg-[#1E1A38]">Avançado</option>
                 </select>
               </div>
 
@@ -157,7 +157,7 @@ Gostaria de agendar minha aula experimental gratuita!`;
                 <label className="block text-xs font-semibold text-[#9B93B8] uppercase tracking-wide mb-2">
                   Objetivo
                 </label>
-                <textarea
+                <textarea 
                   name="goal"
                   value={form.goal}
                   onChange={handleChange}

@@ -44,3 +44,15 @@ body {
     box-shadow: 0 0 60px rgba(108, 63, 197, 0.3);
   }
 }
+
+@keyframes borderMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-border {
+  background: linear-gradient(90deg, #6C3FC5, #E040A0, #0ECFB4, #6C3FC5);
+  background-size: 300% 300%;
+  animation: borderMove 3s ease infinite;
+}

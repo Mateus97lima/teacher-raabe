@@ -5,33 +5,6 @@
 
 
 
-## 📁 Estrutura do projeto
-
-```
-teacher-raabe/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx        # Layout global + SEO
-│   │   └── page.tsx          # Página principal
-│   ├── components/
-│   │   ├── Navbar.tsx        # Navegação responsiva com menu mobile
-│   │   ├── Hero.tsx          # Seção principal com stats
-│   │   ├── About.tsx         # Sobre a professora + curiosidades
-│   │   ├── Etapas.tsx        # Método em 3 etapas
-│   │   ├── Services.tsx      # Planos e preços
-│   │   ├── Testimonials.tsx  # Depoimentos de alunos
-│   │   ├── Contact.tsx       # Formulário → abre WhatsApp
-│   │   └── Footer.tsx        # Rodapé
-│   └── styles/
-│       └── globals.css       # Estilos globais + Tailwind
-├── tailwind.config.ts
-├── tsconfig.json
-├── next.config.js
-└── package.json
-```
-
----
-
 ## 🛠️ Tecnologias utilizadas
 
 | Tecnologia | Versão | Uso |

@@ -1,38 +1,58 @@
-const plans = [
-  {
+ const plans = [
+{
     icon: "🎯",
     iconBg: "rgba(14,207,180,0.12)",
-    title: "Aula Experimental",
-    desc: "Conheça minha metodologia em uma aula completa. Diagnóstico do seu nível e planejamento do seu caminho até a fluência.",
-    price: "Grátis",
-    period: "/ 1 aula",
-    badge: "TRIAL GRATUITO",
+    title: "Plano Semanal",
+    subtitle: "1 aula por semana",
+    desc: "25 encontros de 60 min. Plano de estudos semanal, acesso à plataforma Ellii, homework personalizado e 1 participação semanal em turmas.",
+    price: "R$ 350",
+    period: "/ mês",
+    badge: "6 MESES",
     badgeColor: "bg-[rgba(14,207,180,0.15)] text-teal",
     featured: false,
+    details: ["25 encontros de 60 min", "1x por semana", "Plano semanal em PDF", "Acesso à Ellii"],
   },
   {
     icon: "⭐",
     iconBg: "rgba(108,63,197,0.2)",
-    title: "Plano Mensal",
-    desc: "8 aulas por mês com acompanhamento completo. Material incluso, exercícios personalizados e suporte pelo WhatsApp.",
-    price: "R$ 497",
+    title: "Plano Personalizado",
+    subtitle: "2 aulas por semana",
+    desc: "50 encontros de 60 min. Evolução acelerada com plano personalizado, acesso à Ellii, homework e participação semanal em turmas.",
+    price: "R$ 620",
     period: "/ mês",
     badge: "MAIS POPULAR",
     badgeColor: "bg-[rgba(108,63,197,0.2)] text-purple-light",
     featured: true,
+    details: ["50 encontros de 60 min", "2x por semana", "Plano semanal em PDF", "Acesso à Ellii"],
   },
   {
     icon: "🚀",
     iconBg: "rgba(224,64,160,0.15)",
-    title: "Plano Intensivo",
-    desc: "16 aulas por mês para evolução acelerada. Ideal para quem tem prazo: processo seletivo, viagem ou intercâmbio.",
-    price: "R$ 897",
+    title: "Plano Anual",
+    subtitle: "1 aula por semana",
+    desc: "50 encontros de 60 min. Compromisso de longo prazo com o melhor custo-benefício e todos os benefícios das aulas particulares.",
+    price: "R$ 300",
     period: "/ mês",
-    badge: "INTENSIVO",
+    badge: "MELHOR PREÇO",
     badgeColor: "bg-[rgba(224,64,160,0.15)] text-pink-light",
     featured: false,
+    details: ["50 encontros de 60 min", "1x por semana", "Plano semanal em PDF", "Acesso à Ellii"],
+  },
+  {
+    icon: "💎",
+    iconBg: "rgba(255,209,102,0.15)",
+    title: "Plano Imersão",
+    subtitle: "2 aulas por semana",
+    desc: "100 encontros de 60 min. A imersão completa para quem quer alcançar a fluência com o melhor plano de longo prazo.",
+    price: "R$ 560",
+    period: "/ mês",
+    badge: "IMERSÃO TOTAL",
+    badgeColor: "bg-[rgba(255,209,102,0.12)] text-yellow-400",
+    featured: false,
+    details: ["100 encontros de 60 min", "2x por semana", "Plano semanal em PDF", "Acesso à Ellii"],
   },
 ];
+
 
 export default function Services() {
   return (
@@ -45,10 +65,10 @@ export default function Services() {
           Escolha o plano ideal pra você
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {plans.map((p) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2  gap-7">
+          {plans.map((p, index) => (
             <div
-              key={p.title}
+              key={index}
               className={`bg-card rounded-2xl p-8 flex flex-col transition-all duration-200 hover:-translate-y-1 relative ${
                 p.featured
                   ? "border-2 border-purple"
