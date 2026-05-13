@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "55 88 8853-6810"; // e
+const WHATSAPP_NUMBER = "55888853-6810"; // e
 
 const contactItems = [
   { icon: "📱", label: "WhatsApp", value: "(88) 8853-6810" },

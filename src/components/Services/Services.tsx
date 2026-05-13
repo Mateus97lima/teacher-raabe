@@ -41,9 +41,9 @@
   {
     icon: "💎",
     iconBg: "rgba(255,209,102,0.15)",
-    title: "Plano Imersão",
+    title: "Plano Anual Intensivo",
     subtitle: "2 aulas por semana",
-    desc: "100 encontros de 60 min. A imersão completa para quem quer alcançar a fluência com o melhor plano de longo prazo.",
+    desc: "100 encontros de 60 minutos. A jornada completa para quem quer alcançar a fluência de forma rápida e consistente.",
     price: "R$ 560",
     period: "/ mês",
     badge: "IMERSÃO TOTAL",
