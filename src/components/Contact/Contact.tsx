@@ -170,7 +170,6 @@ Gostaria de agendar minha aula experimental gratuita!`;
 
               <button
                 type="submit"
-                onClick={handleSubmit}
                 className="gradient-bg text-white py-4 rounded-xl text-base font-semibold hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200 mt-1"
               >
                 Agendar minha aula✨
