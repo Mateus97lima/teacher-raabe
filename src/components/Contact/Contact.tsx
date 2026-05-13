@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "55888853-6810"; // e
+const WHATSAPP_NUMBER = "558888536810"; // e
 
 const contactItems = [
   { icon: "📱", label: "WhatsApp", value: "(88) 8853-6810" },
@@ -170,6 +170,7 @@ Gostaria de agendar minha aula experimental gratuita!`;
 
               <button
                 type="submit"
+                onClick={handleSubmit}
                 className="gradient-bg text-white py-4 rounded-xl text-base font-semibold hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200 mt-1"
               >
                 Quero minha aula gratuita ✨
