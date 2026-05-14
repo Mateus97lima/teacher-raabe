@@ -37,14 +37,18 @@ Meu nome é *${form.name}*.
 🎯 Meu objetivo:
 ${form.goal}
 
-Gostaria de agendar minha aula experimental gratuita!`;
+Gostaria de agendar minha aula!`;
 
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-    window.open(url, "_blank");
+        const link = document.createElement("a");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.click();
   };
 
   const inputClass =
-    "w-full px-4 py-3 bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-xl text-sm text-[#F0EDF8] lg:text-[re] placeholder-[rgba(255,255,255,0.2)] outline-none focus:border-purple-light transition-colors duration-200 font-jakarta";
+    "w-full px-4 py-3 bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-xl text-sm text-[#F0EDF8] lg:text-[1rem] placeholder-[rgba(255,255,255,0.2)] outline-none focus:border-purple-light transition-colors duration-200 font-jakarta";
 
   return (
     <section id="contact" className="py-[90px] px-[5%] bg-[#13102A]">
